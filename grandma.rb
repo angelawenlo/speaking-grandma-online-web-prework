@@ -4,6 +4,8 @@ def speak_to_grandma(response)
     "I LOVE YOU TOO PUMPKIN!"
   elsif response == response.downcase
         binding.pry
+
+  else
     "HUH?! SPEAK UP, SONNY!"
 
   end
