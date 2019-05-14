@@ -1,7 +1,7 @@
 def speak_to_grandma(response)
-  if response.uppercase
+  if response.upcase
     puts "I LOVE YOU TOO PUMPKIN!"
-  elsif condition
+  elsif
 
 
   else
