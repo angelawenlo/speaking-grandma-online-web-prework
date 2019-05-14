@@ -1,6 +1,6 @@
 require 'pry'
 def speak_to_grandma(response)
-  if response !== response.upcase
+  if response != response.upcase
     "HUH?! SPEAK UP, SONNY!"
   elsif response == response.upcase
     "NO, NOT SINCE 1938!"
