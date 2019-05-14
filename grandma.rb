@@ -1,20 +1,10 @@
 def speak_to_grandma(response)
-  response= "I LOVE YOU GRANDMA!"
-  if response=="I LOVE YOU GRANDMA!"
-    puts "I LOVE YOU TOO PUMPKIN!"
-  else 
-    "HUH?! SPEAK UP, SONNY!"
-end
-  response="Hi Nana, how are you?"
-  if response== "Hi, Nana"
-    puts= "Hi, Pumpkin"
-  else 
-    "HUH?! SPEAK UP, SONNY!"
-end
-  response= "Hi!"
-  if response=="HI"
-    puts= "HI,PUMPKIN"
+  if response== "I LOVE YOU GRANDMA!"
+    return "I LOVE YOU TOO PUMPKIN!"
+  end
+  if response !=response.upcase()
+    return "HUH?! SPEAK UP, SONNY!"
   else
-    "HUH?! SPEAK UP, SONNY!"
+    "NO, NOT SINCE 1938!"
+  end
 end
-  response=
